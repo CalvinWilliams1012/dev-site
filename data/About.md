@@ -2,7 +2,7 @@
 order: 4
 title: 'About'
 tech:
-    - proficient:
+    proficient:
         - 'C#'
         - 'ASP.NET'
         - 'JavaScript'
@@ -15,7 +15,7 @@ tech:
         - 'Git'
         - 'Visual Studio'
         - 'Microsoft Office Suite'
-    - familiarity:
+    familiarity:
         - 'Java'
         - 'Docker'
         - 'React'

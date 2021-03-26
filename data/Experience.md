@@ -2,13 +2,13 @@
 order: 2
 title: 'Experience'
 jobs:
-    - company: 'Sitecore'
-    - title: 'Software Engineer'
-    - startDate: '2018-04-18'
+    company: 'Sitecore'
+    title: 'Software Engineer'
+    startDate: 'Apr 2018'
 education:
-    - school: 'Algonquin College'
-    - title: 'Computer Programmer Ontario College Diploma'
-    - startDate: '2015-09-01'
-    - endDate: '2017-04-01'
+    school: 'Algonquin College'
+    title: 'Computer Programmer Ontario College Diploma'
+    startDate: 'Sep 2015'
+    endDate: 'Apr 2017'
 ---
 

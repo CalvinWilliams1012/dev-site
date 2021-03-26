@@ -18,6 +18,18 @@ section div{
     border-color: #919090;
 }
 
-.section{
-    margin-bottom: 3rem;
+.main-section{
+    margin-bottom: 1rem;
+}
+
+.section-content{
+    display: none;
+}
+
+.icon{
+    float: left;
+    padding: .2rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 1.1rem;
 }

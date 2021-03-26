@@ -1,14 +1,18 @@
 import Link from "next/link";
+import {useEffect, useState} from "react";
 
 export default function Section({ sectionData }) {
+  const [contentHidden, setHidden] = useState(true);
+
   return (
-    <section className="hd-border main-section">
+    <section onClick={() => setHidden(!contentHidden)} className="hd-border main-section">
       <div>
         <div>
-          <i className="icon icon-chevron-down"></i>
+          <i className={contentHidden ? "icon-chevron-down icon" : "icon-chevron-up icon" }></i>
           <h1>{sectionData.title}</h1>
         </div>
-        <div className="section-content">
+        {(contentHidden === false) ? 
+        <div>
           {/* mailto contact link */}
           {sectionData.email ? (
             <a href={"mailto:" + sectionData.email}>{sectionData.email}</a>
@@ -68,6 +72,7 @@ export default function Section({ sectionData }) {
             </>
           ) : null}
         </div>
+        : null}
       </div>
     </section>
   );

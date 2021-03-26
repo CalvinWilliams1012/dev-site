@@ -15,9 +15,7 @@ export default function Home({ allSectionsData }) {
   return (
     <Layout>
       {allSectionsData.map((key) => (
-        <>
         <Section key={key} sectionData={key} />
-        </>
       ))}
     </Layout>
   );

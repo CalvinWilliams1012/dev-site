@@ -22,10 +22,6 @@ section div{
     margin-bottom: 1rem;
 }
 
-.section-content{
-    display: none;
-}
-
 .icon{
     float: left;
     padding: .2rem;

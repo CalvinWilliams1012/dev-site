@@ -11,14 +11,13 @@ ul li::before{
     content: none;
 }
 
-ul li::after {
-    content: " / ";
-}
-li:last-child::after{
-    content:none;
-}
 
 section div{
     margin-left: 2rem;
     width: auto;
+    border-color: #919090;
+}
+
+.section{
+    margin-bottom: 3rem;
 }

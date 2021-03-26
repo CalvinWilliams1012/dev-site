@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Section({ sectionData }) {
   return (
-    <section>
+    <section className="hd-border">
       <h1>{sectionData.title}</h1>
       <div>
         {/* mailto contact link */}

@@ -26,13 +26,13 @@ export default function Section({ sectionData }) {
             <>
               <h3>Tech</h3>
               <h4>Proficient:</h4>
-              <ul>
+              <ul className="cloud">
                 {sectionData.tech.proficient.map((t) => (
                   <li key={t}>{t}</li>
                 ))}
               </ul>
               <h4>Familiarity</h4>
-              <ul>
+              <ul className="cloud">
                 {sectionData.tech.familiarity.map((t) => (
                   <li key={t}>{t}</li>
                 ))}

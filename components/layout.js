@@ -8,7 +8,7 @@ export default function Layout({ children, home }) {
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="http://fxaeberhard.github.io/handdrawn.css/handdrawn.css"/>
+        <link rel="stylesheet" href="https://fxaeberhard.github.io/handdrawn.css/handdrawn.css"/>
         <meta
           name="description"
           content="Calvin Williams - Software Engineer - Developer"

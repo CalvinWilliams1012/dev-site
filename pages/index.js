@@ -14,6 +14,7 @@ export async function getStaticProps() {
 export default function Home({ allSectionsData }) {
   return (
     <Layout>
+      {console.log(allSectionsData)}
       {allSectionsData.map((key) => (
         <Section key={key} sectionData={key} />
       ))}

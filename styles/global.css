@@ -14,7 +14,6 @@ section div{
 
 .icon{
     float: left;
-    padding: .2rem;
     width: 3rem;
     height: 3rem;
     line-height: 1.1rem;
@@ -35,4 +34,16 @@ ul.cloud li{
     padding: 0.125rem 0.25rem;
     text-decoration: none;
     position: relative;  
+}
+
+ul.cloud li::after{
+    content: ",";
+}
+
+ul.cloud li:last-child::after{
+    content: none;
+}
+
+.content-div{
+    margin: 1rem 0 1rem;
 }
